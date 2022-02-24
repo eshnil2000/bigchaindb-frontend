@@ -6424,7 +6424,8 @@ class FarmToFork {
      */
     constructor() {
         // Initialise a new connection.
-        this.connection = new driver.Connection("http://localhost:9984/api/v1/", {
+        this.connection = new driver.Connection("https://bigchaindb.dappsuni.com/api/v1/", {
+        //this.connection = new driver.Connection("http://localhost:9984/api/v1/", {
             //app_id: process.env.APP_ID,
             //app_key: process.env.APP_KEY,
         });
