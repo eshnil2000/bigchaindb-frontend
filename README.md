@@ -1,6 +1,10 @@
 # Farm To Fork
 ## A Proof-of-concept with the help of BigchainDB.
 
+npm install
+browserify js/FarmToFork.js -t localenvify -s ftf_module -o js/bundle.js
+
+
 ⚠️ This PoC was written for an open BigchainDB network that does not exist anymore, so it will not work anymore. However, all the applied concepts in the tutorial are still applicable.
 
 This POC was created as a follow-along project for this tutorial.
